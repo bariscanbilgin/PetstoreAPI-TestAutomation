@@ -25,7 +25,7 @@ public class PetstoreApiTest {
                 "}";
 
         given().body(userData).contentType(ContentType.JSON).when()
-                .post(url + "/user").then().statusCode(200); // Code 200 -> OK
+                .post(url + "/user").then().statusCode(200); // Code 200 -> OK.
     }
 
     @Test
