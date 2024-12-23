@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2cc245f0-7182-4aac-96ee-22d4e308833b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PetstoreApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PetstoreApiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.PetstoreApiTest.createUser.executor": "Run",
+    "JUnit.PetstoreApiTest.deleteUser.executor": "Debug",
     "JUnit.PetstoreApiTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,7 +48,7 @@
     "last_opened_file_path": "D:/Baris/Desktop/Automation/QA Test Lab Final Project/PetstoreAPI_AutomationTest/PetstoreAPI-TestAutomation"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PetstoreApiTest.createUser">
+  <component name="RunManager" selected="JUnit.PetstoreApiTest">
     <configuration name="PetstoreApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="API_Automation_BCB" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,10 +68,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PetstoreApiTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="API_Automation_BCB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PetstoreApiTest" />
+      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PetstoreApiTest.createUser" />
         <item itemvalue="JUnit.PetstoreApiTest" />
+        <item itemvalue="JUnit.PetstoreApiTest.deleteUser" />
+        <item itemvalue="JUnit.PetstoreApiTest.createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -84,5 +96,16 @@
       <updated>1734941560083</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PetstoreApiTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
